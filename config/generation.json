@@ -1,0 +1,1 @@
+{"generation":{"image":{"format":"jpg","height":1080,"provider":"local","width":1080},"text":{"max_caption_chars":2000},"video":{"enabled":true,"max_duration_seconds":60,"provider":"script"}}}

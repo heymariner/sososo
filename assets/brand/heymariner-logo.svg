@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" role="img" aria-label="HeyMariner logo">
+  <title>HeyMariner</title>
+  <desc>Stylised mermaid silhouette with a teal wave tail, and the word HeyMariner in navy.</desc>
+  <!-- Mermaid silhouette: head, torso and flowing hair, navy -->
+  <g fill="#0B2C4A">
+    <circle cx="72" cy="52" r="22"/>
+    <!-- hair flowing back -->
+    <path d="M72 30 C 44 28 34 52 40 74 C 46 92 38 104 30 112 C 44 110 54 100 56 86 C 58 74 62 66 72 64 Z"/>
+    <!-- torso / arms -->
+    <path d="M72 74 C 58 76 50 88 50 104 C 50 118 58 128 66 134 L 78 134 C 86 128 94 118 94 104 C 94 88 86 76 72 74 Z"/>
+    <path d="M54 92 C 44 96 38 106 36 118 L 46 120 C 48 110 52 102 60 98 Z"/>
+    <path d="M90 92 C 100 96 106 106 108 118 L 98 120 C 96 110 92 102 84 98 Z"/>
+  </g>
+  <!-- Teal wave tail -->
+  <g fill="#14919B">
+    <path d="M62 132 C 56 150 44 162 28 168 C 44 172 58 168 66 158 C 70 168 64 180 52 186 C 70 188 84 180 88 166 C 92 152 84 140 82 132 Z"/>
+    <path d="M118 168 C 150 158 190 162 214 176 C 190 184 152 184 124 178 Z"/>
+    <path d="M118 184 C 146 176 180 179 200 190 C 178 197 146 196 124 191 Z"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="150" y="118" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" fill="#0B2C4A">HeyMariner</text>
+  <text x="152" y="152" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="400" fill="#14919B">Trusted maritime updates</text>
+</svg>

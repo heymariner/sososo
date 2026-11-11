@@ -1,0 +1,30 @@
+# Secrets and local environment — never commit these.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Generated media (outputs are produced by the pipeline, not committed)
+output/
+data/logs/
+*.mp4
+data/generated/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NOTE: the following are explicitly NOT ignored — they are committed on purpose:
+#   data/pending/*.json   (example pending posts for human review)
+#   data/state/.gitkeep   (keeps the state directory in the repo)
+#   data/pending/.gitkeep (keeps the pending queue directory in the repo)
+!data/pending/*.json
+!data/state/.gitkeep
+!data/pending/.gitkeep
